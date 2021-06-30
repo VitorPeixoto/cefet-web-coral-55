@@ -113,6 +113,9 @@ article {
 
 /* EXERCÍCIO 5: o rodapé */
 #rodape-pagina {
+  margin: 46px 15px 25px 0px;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* EXERCÍCIO 6: lateral */
