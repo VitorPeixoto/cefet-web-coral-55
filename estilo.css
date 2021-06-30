@@ -62,15 +62,6 @@ body {
 #cabecalho-pagina {
   grid-row: 1/1;
   grid-column: 2/2;
-  margin: 10px;
-}
-
-#cabecalho-pagina h1 {
-  text-align: center;
-}
-
-#cabecalho-pagina h2 {
-  text-align: end;
 }
 
 #lateral {  
@@ -93,7 +84,7 @@ body {
 
 /* EXERCÍCIO 3: cabeçalho da página */
 #cabecalho-pagina {
-
+  margin: 10px;
 }
 
 #cabecalho-pagina h1 {
@@ -101,6 +92,7 @@ body {
   font-size: 36px;
   color: #e90c0c;
   font-weight: normal;
+  text-align: center;
 }
 
 #cabecalho-pagina h2 {
@@ -108,6 +100,7 @@ body {
   font-size: 24px;
   color: #333;
   font-weight: normal;
+  text-align: end;
 }
 
 /* EXERCÍCIO 4: cada item do menu */
