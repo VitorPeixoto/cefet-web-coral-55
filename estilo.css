@@ -128,9 +128,14 @@ article {
 
 /* EXERCÍCIO 7: o ticket */
 #ticket {
+  position: fixed;
+  top: calc(50vh - 42px);
+  left: -89px;
+  transition: left 100ms ease-out; /* propriedade, duração, interpolação */
 }
 
 #ticket:hover {
+  left: 0px;
 }
 
 
